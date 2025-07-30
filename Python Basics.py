@@ -1,12 +1,12 @@
 # Very Easy
 
-# name =  "Chinnodaaaaa 💞✨"
-# print("My name is "+name)
-# age = 20
-# print(f"I am {age} years old")
-# x = 10
-# y = 3.5
-# print(f"Sum Of {x} and {y} is : {x+y}")
+name =  "Chinnodaaaaa 💞✨"
+print("My name is "+name)
+age = 20
+print(f"I am {age} years old")
+x = 10
+y = 3.5
+print(f"Sum Of {x} and {y} is : {x+y}")
 
 # Askname = input("Enter your name : ")
 # print(f"Hello, {Askname}!")
