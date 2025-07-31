@@ -1,4 +1,5 @@
-# 🐍💻 Python Programming Journey ✨
+[🔗 Click here to view this repository on GitHub](https://github.com/koppojuTrinaini/PythonWorks)
+# 🐍💻 Python Programming Journey ✨ 
 
 Welcome to my all-in-one **Python learning repository**!  
 This repo captures my complete journey from a **Python beginner** to mastering **advanced concepts** with real-world projects and 100+ problems. 🎯
