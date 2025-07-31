@@ -46,9 +46,4 @@ The problems are grouped by difficulty to gradually build your skills:
 - Take name, birth year, and height → calculate age & convert height to meters
 - Build a mini calculator (supports +, -, *, /)
 
-## 🛠 How to Run
 
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/your-username/python-basics-practice.git
-   cd python-basics-practice
