@@ -10,6 +10,7 @@
 # Use break to stop loop when a number is found.
 # Use continue to skip odd numbers in a loop.
 
+
 num = int(input("Enter a number : "))
 if (num % 2 == 0):
     print("The number is EVEN")
@@ -75,4 +76,5 @@ for i in range(1,101):
     if (i % 2 != 0):
         continue
     print(i)
+
 
