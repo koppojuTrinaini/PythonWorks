@@ -77,4 +77,39 @@ for i in range(1,101):
         continue
     print(i)
 
+# ⚡ MEDIUM LEVEL QUESTIONS
+# Count how many numbers from 1 to N are divisible by 3 or 5.
+# Calculate factorial of a number using loop.
+# Reverse a number using a while loop.
+# Check if a number is prime.
+# Check if a number is an Armstrong number.
+# Find the GCD of two numbers.
+# Print Fibonacci sequence up to N terms.
+# Find sum of digits of a number.
+# Find the maximum digit in a number.
+# Check whether a character is a vowel or consonant using conditions.
+
+print("Count how many numbers from 1 to N are divisible by 3 or 5")
+n4 = int(input("Enter N value : "))
+for i in range(1 , n4 + 1):
+    if(i % 3 == 0 or i % 5 == 0):
+        print(i)
+
+print("Calculate factorial of a number using loop.")
+n5 = int(input("Enter number : "))
+tol = 1
+while n5 > 0 :
+    tol *= n5
+    n5 -= 1
+print(f"Factorial is : { tol }") 
+
+n=int(input("Enter : "))
+rev = 0
+rem = 0
+while (n != 0):
+    rem = n % 10 
+    rev = rev * 10 + rem
+    n = n // 10
+print(rev) 
+
 
