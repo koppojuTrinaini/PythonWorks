@@ -6,6 +6,7 @@
 # Convert the string "123" into an integer and print it.
 print("Very Easy✨")
 
+
 name =  "MiniCat"
 print("My name is "+name)
 age = 20
@@ -146,5 +147,6 @@ elif (e == '*'):
     print(n1*n2)
 else:
     print(n1-n2)
+
 
 
