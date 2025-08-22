@@ -10,71 +10,71 @@
 # Use break to stop loop when a number is found.
 # Use continue to skip odd numbers in a loop.
 
-# num = int(input("Enter a number : "))
-# if (num % 2 == 0):
-#     print("The number is EVEN")
-# else:
-#     print("The number is ODD")
+num = int(input("Enter a number : "))
+if (num % 2 == 0):
+    print("The number is EVEN")
+else:
+    print("The number is ODD")
 
-# a, b, c = map(int, input("Enter 3 inputs separated by space: ").split())
-# print(f"A : {a} , B : {b} , C : {c}")
-# if ( a > b):
-#     if (a > c):
-#         print("A is big")
-#     else:
-#         print("C is big")
-# else:
-#     if(b>c):
-#         print("B is big")
-#     else:
-#         print("C is big")
+a, b, c = map(int, input("Enter 3 inputs separated by space: ").split())
+print(f"A : {a} , B : {b} , C : {c}")
+if ( a > b):
+    if (a > c):
+        print("A is big")
+    else:
+        print("C is big")
+else:
+    if(b>c):
+        print("B is big")
+    else:
+        print("C is big")
 
-# num = float(input("Enter a number : "))
-# if (num > 0):
-#     print("It is a positive")
-# elif (num < 0):
-#     print("It is a Negative")
-# else:
-#     print("It is Zero")
+num = float(input("Enter a number : "))
+if (num > 0):
+    print("It is a positive")
+elif (num < 0):
+    print("It is a Negative")
+else:
+    print("It is Zero")
 
-# for i in range(1,11):
-#     print(i)
+for i in range(1,11):
+    print(i)
 
-# t = int(input("Enter a number to genarate table for that num from 1 to 10 multiple : "))
-# if(t>0):
-#     for i in range(1, 11):
-#         print(f"{t} x {i} = {t * i}")
+t = int(input("Enter a number to genarate table for that num from 1 to 10 multiple : "))
+if(t>0):
+    for i in range(1, 11):
+        print(f"{t} x {i} = {t * i}")
 
-# na = int(input("Enter a number : "))
-# sum=0
-# for i in range ( 1 , na+1):
-#     sum = sum  + i
-# print(f"Sum of all {na} natural numbers: {sum}")
+na = int(input("Enter a number : "))
+sum=0
+for i in range ( 1 , na+1):
+    sum = sum  + i
+print(f"Sum of all {na} natural numbers: {sum}")
 
-# print("check whether the year is leap year or not")
-# y = int(input("Enter year : "))
-# if (y % 4 == 0) and (y % 100 != 0) or (y % 400 == 0):
-#     print(f"{y} is a Leap year")
-# else:
-#     print(f"{y} It is not a leap year")
+print("check whether the year is leap year or not")
+y = int(input("Enter year : "))
+if (y % 4 == 0) and (y % 100 != 0) or (y % 400 == 0):
+    print(f"{y} is a Leap year")
+else:
+    print(f"{y} It is not a leap year")
 
-# print("Printing even numbers from 1 to 50")
-# for i in range(1,51):
-#     if (i % 2 == 0):
-#         print(i)   
+print("Printing even numbers from 1 to 50")
+for i in range(1,51):
+    if (i % 2 == 0):
+        print(i)   
 
-# target = int(input("Enter the number to search : "))
+target = int(input("Enter the number to search : "))
 
-# for i in range(1, 101):  # Example range from 1 to 100
-#     if i == target:
-#         print(f"Number {target} found! Stopping the loop.")
-#         break
-#     print(f"Checked {i}, not the number.")
+for i in range(1, 101):  # Example range from 1 to 100
+    if i == target:
+        print(f"Number {target} found! Stopping the loop.")
+        break
+    print(f"Checked {i}, not the number.")
 
-# for i in range(1,101):
-#     if (i % 2 != 0):
-#         continue
-#     print(i)
+for i in range(1,101):
+    if (i % 2 != 0):
+        continue
+    print(i)
 
 # ⚡ MEDIUM LEVEL QUESTIONS
 # Count how many numbers from 1 to N are divisible by 3 or 5.
@@ -88,28 +88,60 @@
 # Find the maximum digit in a number.
 # Check whether a character is a vowel or consonant using conditions.
 
-# print("Count how many numbers from 1 to N are divisible by 3 or 5")
-# n4 = int(input("Enter N value : "))
-# count1 = 0
-# for i in range(1 , n4 + 1):
-#     if(i % 3 == 0 or i % 5 == 0):
-#         count1 +=1
-#         print(f"{i} is divisible by 3 or 5")
-# print(f"Count : {count1}")
+print("Count how many numbers from 1 to N are divisible by 3 or 5")
+n4 = int(input("Enter N value : "))
+count1 = 0
+for i in range(1 , n4 + 1):
+    if(i % 3 == 0 or i % 5 == 0):
+        count1 +=1
+        print(f"{i} is divisible by 3 or 5")
+print(f"Count : {count1}")
 
-# print("Calculate factorial of a number using loop.")
-# n5 = int(input("Enter number : "))
-# tol = 1
-# while n5 > 0 :
-#     tol = tol * n5
-#     n5 =  n5 - 1
-# print(f"Factorial is : { tol }") 
+print("Calculate factorial of a number using loop.")
+n5 = int(input("Enter number : "))
+tol = 1
+while n5 > 0 :
+    tol = tol * n5
+    n5 =  n5 - 1
+print(f"Factorial is : { tol }") 
 
-# n=int(input("Enter : "))
-# rev = 0
-# rem = 0
-# while (n != 0):
-#     rem = n % 10 
-#     rev = rev * 10 + rem
-#     n = n // 10
-# print(rev) 
+n=int(input("Enter : "))
+rev = 0
+rem = 0
+while (n != 0):
+    rem = n % 10 
+    rev = rev * 10 + rem
+    n = n // 10
+print(rev) 
+
+n3 = int(input("Enter a number: "))
+if n3 > 1:
+    for i in range(2, n):
+        if n3 % i == 0:
+            print("Not Prime")
+            break
+    else:
+        print("Prime")
+else:
+    print("Not Prime")
+
+
+print("Check if a number is an Armstrong number....")
+n6 = int(input("Enter a number : "))
+n6_str = str(n6)
+power = len(n6_str)
+total = sum(int(d1)**power for d1 in  n6_str)
+if total == n6:
+    print("Armstrong number")
+else:
+    print("Not Armstrong number")
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+while b != 0:
+    a, b = b, a % b
+
+print("GCD is:", a)
+
+
